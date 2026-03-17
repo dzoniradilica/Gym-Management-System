@@ -1,3 +1,15 @@
+<?php
+  require_once 'classes/Database.php';
+
+  $db = new Database();
+
+  if($db->getConnection()) {
+    echo "radi";
+  } else {
+    echo "ne radi";
+  }
+?>
+
 <!doctype html>
 <html lang="en">
   <head>
