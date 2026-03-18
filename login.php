@@ -8,6 +8,8 @@
   } else {
     echo "ne radi";
   }
+  
+  var_dump($db);
 ?>
 
 <!doctype html>
